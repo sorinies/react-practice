@@ -1,9 +1,11 @@
 import './App.css';
+import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
+// import Dialog from './components/3-6.Composition2/Dialog';
 // import Reducer from './components/3-3.Hooks/Reducer';
 // import UncontrolledComponent from './components/2-10.Form/UncontrolledComponent';
 // import ControlledComponent from './components/2-10.Form/ControlledComponent';
 // import State from './components/3-3.Hooks/State';
-import WelcomeDialog from './components/3-5.Composition/WelcomeDialog';
+// import WelcomeDialog from './components/3-5.Composition/WelcomeDialog';
 // import Condition from './components/2-8.ConditionalRendering/Condition';
 // import List from './components/2-9.List/List';
 // import Composition from './components/2-4.Props/Composition';
@@ -28,7 +30,9 @@ function App() {
       <UncontrolledComponent /> */}
       {/* <State />
       <Reducer /> */}
-      <WelcomeDialog />
+      {/* <WelcomeDialog /> */}
+      {/* <Dialog /> */}
+      <ThankyouDialog />
     </div>
   );
 }
