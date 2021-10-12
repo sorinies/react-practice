@@ -1,7 +1,9 @@
 import './App.css';
-import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
-import Button from './components/3-7.HOC/Button';
-import Input from './components/3-7.HOC/Input';
+import Example from './components/3-10.Context/Example';
+// import Memo from './components/3-8.Memoization/Memo';
+// import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
+// import Button from './components/3-7.HOC/Button';
+// import Input from './components/3-7.HOC/Input';
 // import Dialog from './components/3-6.Composition2/Dialog';
 // import Reducer from './components/3-3.Hooks/Reducer';
 // import UncontrolledComponent from './components/2-10.Form/UncontrolledComponent';
@@ -35,9 +37,11 @@ function App() {
       {/* <WelcomeDialog /> */}
       {/* <Dialog /> */}
       {/* <ThankyouDialog /> */}
-      <Input />
+      {/* <Input />
       <br />
-      <Button />
+      <Button /> */}
+      {/* <Memo /> */}
+      <Example />
     </div>
   );
 }
